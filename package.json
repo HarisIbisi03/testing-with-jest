@@ -10,5 +10,8 @@
     "test": "jest tests"
   },
   "author": "Haris Ibisi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
 }
