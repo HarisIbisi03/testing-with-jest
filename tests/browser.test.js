@@ -2,7 +2,7 @@ const { Builder, By, until } = require("selenium-webdriver");
 require("geckodriver");
 
 const fileUnderTest =
-  "file://" + __dirname.replace(/ /g, "%20") + "/../dist/index.html";
+  "file://" + __dirname.replace(/ /g, "%20") + "/../src/index.html";
 const defaultTimeout = 10000;
 let driver;
 jest.setTimeout(1000 * 60 * 5); // 5 minuter
