@@ -8,6 +8,8 @@ window.onload = function () {
   var peek = document.getElementById("peek");
   var display = document.getElementById("top_of_stack");
 
+  display.innerHTML = "n/a";
+
   pop.addEventListener("click", function () {
     var text = "Tog bort " + stack.pop();
     alert(text);
